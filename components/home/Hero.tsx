@@ -15,9 +15,12 @@ export function Hero() {
       </p>
 
       <div className="mt-10 flex flex-wrap justify-center gap-4">
-        <button className="rounded-xl bg-blue-600 px-6 py-3 font-semibold transition hover:bg-blue-700">
-          Upload KML Files
-        </button>
+        <a
+  href="#upload"
+  className="rounded-xl bg-blue-600 px-6 py-3 font-semibold transition hover:bg-blue-700"
+>
+  Upload KML Files
+</a>
 
         <button className="rounded-xl border border-zinc-700 px-6 py-3 font-semibold transition hover:border-blue-500">
           Documentation
