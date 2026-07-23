@@ -16,8 +16,11 @@ Open-source, offline KML/KMZ merger and optimizer.
 ## Quick Start
 
 git clone https://github.com/Deepak-ceoX/smart-kml-studio.git
+
 cd smart-kml-studio
+
 npm install
+
 npm run dev
 
 Open http://localhost:3000
