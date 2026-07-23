@@ -1,10 +1,12 @@
-import { mergeFolders } from "./merge";
-import { FolderNode } from "./parser";
+import { mergeFolders } from "@/engine/merge";
+import type { FolderNode } from "@/types/kml";
 
 const fileA: FolderNode = {
+  id: "folder-a",
   name: "A",
   folders: [
     {
+      id: "folder-b",
       name: "B",
       folders: [],
       placemarks: [],
@@ -14,9 +16,11 @@ const fileA: FolderNode = {
 };
 
 const fileB: FolderNode = {
+  id: "folder-a-2",
   name: "A",
   folders: [
     {
+      id: "folder-c",
       name: "C",
       folders: [],
       placemarks: [],
